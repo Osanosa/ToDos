@@ -52,6 +52,14 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+/**
+ * Displays a to-do item with an interactive checkbox and label.
+ *
+ * When tapped, the checkbox toggles its state. A long press opens a dialog displaying the item's label,
+ * which can be dismissed by tapping outside the dialog.
+ *
+ * @param label the text label for the to-do item. Defaults to "Go to the doctor".
+ */
 @OptIn(ExperimentalFoundationApi::class)
 @Preview(showBackground = true)
 @Composable
