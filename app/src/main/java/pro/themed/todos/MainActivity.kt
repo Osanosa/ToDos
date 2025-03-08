@@ -82,7 +82,7 @@ fun ToDoItem(label: String = "Go to the doctor") {
                 modifier = Modifier.fillMaxWidth(0.8f)
             ) {
                 Text(
-                    text = label, modifier = Modifier.padding(horizontal = 16.dp, vertical = 48.dp)
+                    text = label, modifier = Modifier.padding(horizontal = 16.dp, vertical = 36.dp)
                 )
 
             }
